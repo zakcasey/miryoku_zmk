@@ -4,3 +4,8 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
+
+&kscan0 {
+  debounce-press-ms = <3>;
+  debounce-release-ms = <3>;
+};
